@@ -36,6 +36,26 @@
 - 라이브러리를 관리해 주는 프로그램 : maven 또는 gradle
   빌드(build)도구, 의존성 관리 도구
   
+4. overload
+
+5. Dependency
+
+6. static
+
+7. 디자인 패턴 : Builder
+
+8. 디자인 패턴 : Singleton
+
+9. 상속
+
+10. override
+
+11. 추상메소드와 추상클래스
+
+12. 인터페이스
+
+13. 예외처리
+
 
 
 
