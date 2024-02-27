@@ -8,6 +8,7 @@ import lombok.*;
 @Builder
 public class Member {
 	private String username;
+	@Setter
 	private String password;
 	private String email;
 }
