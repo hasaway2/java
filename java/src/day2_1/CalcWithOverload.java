@@ -1,19 +1,19 @@
 package day2_1;
 
 public class CalcWithOverload {
-	public int sumii(int a, int b) {
+	public int sum(int a, int b) {
 		return a+b;
 	}
 	
-	public double sumdi(double a, int b) {
+	public double sum(double a, int b) {
 		return a+b;
 	}
 	
-	public double sumid(int a, double b) {
+	public double sum(int a, double b) {
 		return a+b;
 	}
 	
-	public double sumdd(double a, double b) {
+	public double sum(double a, double b) {
 		return a+b;
 	}
 }
