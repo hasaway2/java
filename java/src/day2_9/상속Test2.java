@@ -1,20 +1,22 @@
 package day2_9;
 
+// 자식의 공통점들을 모아서 부모 클래스를 만든다
+// 부모를 상속받아 코드를 재사용하자
 class Product {
-	protected Long price = 1000L;
+	Long price = 1000L;
 }
 
 class Pen extends Product {
-	private String name = "펜";
-	public void 제품정보() {
-		System.out.println("제품이름 : " + name + ", 가격 :" + price);
+	String name = "펜";
+	void 상품소개() {
+		System.out.println(price + "원짜리 " + name);
 	}
 }
 
 class Note extends Product {
-	private String name = "노트";
-	public void 제품정보() {
-		System.out.println("제품이름 : " + name + ", 가격 :" + price);		
+	String name = "노트";
+	void 상품소개() {
+		System.out.println(price + "원짜리 " + name);
 	}
 }
 
