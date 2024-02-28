@@ -1,12 +1,14 @@
 package day3_03;
 
-// access modifier : protected
+// access modifier : public private protected
 
 class Emp {
 	protected String name;
 	protected Long nai;
 }
 
+// 부모의 private에는 자식은 접근 불가
+// protected는 자식의 접근은 허용
 class Regular extends Emp {
 	private String position;
 	private Long salary;
@@ -18,11 +20,16 @@ class Regular extends Emp {
 	}
 }
 
-class PartTimer extends Emp {
-	private String role;
-	private Long 시급;
-}
 
 public class Test5 {
+	public static void main(String[] args) {
+		Regular s1 = new Regular("홍길동",30L,"대리",4000000L);
 
+	}
 }
+
+
+
+
+
+
