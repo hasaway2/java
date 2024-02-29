@@ -9,6 +9,7 @@ class Apple {
 	private String name;
 	private int price;
 	
+	// 어떤 경우에 두 객체가 같은 거니?...프로그래머가 아니라 업무 규칙
 	@Override
 	public boolean equals(Object obj) {
 		if((obj instanceof Apple)==false) {
